@@ -15,9 +15,9 @@ logger.addHandler(ch)
 # Backoff time sets how many minutes to wait between US Census Bureau pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file here.
-output_filename = '/Users/JosephDeFerio/Desktop/test_x.csv'
+output_filename = '/Users/HOME_FOLDER/Desktop/test_x.csv'
 # Set your input file name here.
-input_filename = '/Users/JosephDeFerio/Desktop/test.csv'
+input_filename = '/Users/HOME_FOLDER/Desktop/test.csv'
 # Specify the colun name in your input data that contains address here
 address_column_name = "Address"
 
