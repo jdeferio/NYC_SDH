@@ -39,9 +39,9 @@ API_KEY='XXXXXXX'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file here.
-output_filename = 'data_path/Subway_Geocode.csv'
+output_filename = '/Users/HOME_FOLDER/Desktop/test_x.csv'
 # Set your input file name here.
-input_filename = 'data_path/DOITT_SUBWAY_STATION_edit.csv'
+input_filename = '/Users/HOME_FOLDER/Desktop/test.csv'
 # Specify the colun name in your input data that contains addresses here
 address_column_name = "Address"
 # Return Full Google Results? If TRUE, full JSON results from Google are included in output
