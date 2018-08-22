@@ -11,13 +11,15 @@ output_file_path = "/Users/Documents/XXXXX.csv"
 samp <- read.csv(sample_data_path, sep = ',')
 pop <- read.csv(population_data_path, sep = ',')
 
-# Converts samp and pop from dataframes to a matrices, samp_ and pop_
+# Converts samp and pop from dataframes to a matrices, samp_ and pop_ 
+# Samp_ is Xs in the "sampling" documentation
 samp_ <- as.matrix(sapply(samp, as.numeric))
 pop_ <- as.matrix(sapply(pop, as.numeric))
 
 # Sets initial weights to 1 for the number of rows your dataset
 d = rep(1, nrow(samp_))
 
+# Derive total from pop 
 total = list()
 for (i in 1:ncol(pop_)) {
     total[i] = sum(pop_[,i])
